@@ -1,21 +1,24 @@
 {
   "schemaVersion": 1,
-  "generatedAtUtc": "2026-07-19T12:54:09Z",
+  "generatedAtUtc": "2026-07-19T14:20:04Z",
   "levels": [
     {
       "id": "level_2026_07_20_ocean_beach",
       "date": "2026-07-20",
-      "file": "2026_07_20_ocean_beach.json"
+      "file": "2026_07_20_ocean_beach.json",
+      "sha256": "ea1b152981713a5d66990cefbc69c3f918cb02d5ae657ee1682bdac92c58371f"
     },
     {
       "id": "level_2026_07_19_happy_farm",
       "date": "2026-07-19",
-      "file": "2026_07_19_happy_farm.json"
+      "file": "2026_07_19_happy_farm.json",
+      "sha256": "b1cbfc49067b0b51397bb1a8cfcb969bbc9bf720e4306884c0b1c10e066e7936"
     },
     {
       "id": "level_2026_07_18_sunny_meadow",
       "date": "2026-07-18",
-      "file": "2026_07_18_sunny_meadow.json"
+      "file": "2026_07_18_sunny_meadow.json",
+      "sha256": "d93645ce6650da5e75bdea555a76774f95b2314482a2c9caebe799450a12a63d"
     }
   ]
 }
