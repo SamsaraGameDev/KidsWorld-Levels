@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "generatedAtUtc": "2026-07-19T08:36:00Z",
+  "levels": [
+    {
+      "id": "level_2026_07_19_happy_farm",
+      "date": "2026-07-19",
+      "file": "2026_07_19_happy_farm.json"
+    },
+    {
+      "id": "level_2026_07_18_sunny_meadow",
+      "date": "2026-07-18",
+      "file": "2026_07_18_sunny_meadow.json"
+    }
+  ]
+}
