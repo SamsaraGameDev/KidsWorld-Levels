@@ -1,7 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAtUtc": "2026-07-19T08:36:00Z",
+  "generatedAtUtc": "2026-07-19T08:57:16Z",
   "levels": [
+    {
+      "id": "level_2026_07_20_ocean_beach",
+      "date": "2026-07-20",
+      "file": "2026_07_20_ocean_beach.json"
+    },
     {
       "id": "level_2026_07_19_happy_farm",
       "date": "2026-07-19",
