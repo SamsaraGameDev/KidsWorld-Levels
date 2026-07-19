@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "id": "level_2026_07_22_garden_pond",
+  "date": "2026-07-22",
+  "theme": "garden_pond",
+  "displayName": "Garden Pond",
+  "findCount": 0,
+  "sceneCenterOffset": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "camera": {
+    "mode": "Orbit"
+  },
+  "ground": {
+    "size": {
+      "x": 16,
+      "y": 0.5,
+      "z": 16
+    },
+    "color": {
+      "r": 0.45,
+      "g": 0.62,
+      "b": 0.42,
+      "a": 1
+    }
+  },
+  "decorations": [
+    {
+      "name": "Rock_A",
+      "primitive": "Sphere",
+      "position": {
+        "x": 2.0,
+        "y": 0.4,
+        "z": -1.5
+      },
+      "rotationEuler": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1.2,
+        "y": 0.8,
+        "z": 1.2
+      },
+      "color": {
+        "r": 0.55,
+        "g": 0.55,
+        "b": 0.58,
+        "a": 1
+      }
+    },
+    {
+      "name": "Log_A",
+      "primitive": "Cylinder",
+      "position": {
+        "x": -3.5,
+        "y": 0.3,
+        "z": -0.5
+      },
+      "rotationEuler": {
+        "x": 90,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0.3,
+        "y": 0.3,
+        "z": 1.4
+      },
+      "color": {
+        "r": 0.48,
+        "g": 0.34,
+        "b": 0.2,
+        "a": 1
+      }
+    },
+    {
+      "name": "Fence_A",
+      "primitive": "Cube",
+      "position": {
+        "x": 0,
+        "y": 0.4,
+        "z": 4.5
+      },
+      "rotationEuler": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 3.0,
+        "y": 0.8,
+        "z": 0.2
+      },
+      "color": {
+        "r": 0.5,
+        "g": 0.36,
+        "b": 0.22,
+        "a": 1
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "pink_flower",
+      "displayName": "Pink Flower",
+      "primitive": "Sphere",
+      "position": {
+        "x": 2.5,
+        "y": 0.3,
+        "z": 3.0
+      },
+      "rotationEuler": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0.4,
+        "y": 0.4,
+        "z": 0.4
+      },
+      "color": {
+        "r": 0.95,
+        "g": 0.55,
+        "b": 0.75,
+        "a": 1
+      }
+    },
+    {
+      "id": "yellow_duck",
+      "displayName": "Yellow Duck",
+      "primitive": "Cube",
+      "position": {
+        "x": -3.0,
+        "y": 0.25,
+        "z": 2.0
+      },
+      "rotationEuler": {
+        "x": 0,
+        "y": 20,
+        "z": 0
+      },
+      "scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      },
+      "color": {
+        "r": 0.96,
+        "g": 0.84,
+        "b": 0.2,
+        "a": 1
+      }
+    },
+    {
+      "id": "blue_boat",
+      "displayName": "Blue Boat",
+      "primitive": "Cube",
+      "position": {
+        "x": 0.5,
+        "y": 0.3,
+        "z": -3.5
+      },
+      "rotationEuler": {
+        "x": 0,
+        "y": -15,
+        "z": 0
+      },
+      "scale": {
+        "x": 0.8,
+        "y": 0.4,
+        "z": 0.5
+      },
+      "color": {
+        "r": 0.25,
+        "g": 0.5,
+        "b": 0.85,
+        "a": 1
+      }
+    },
+    {
+      "id": "orange_fish",
+      "displayName": "Orange Fish",
+      "primitive": "Capsule",
+      "position": {
+        "x": -2.2,
+        "y": 0.3,
+        "z": -2.5
+      },
+      "rotationEuler": {
+        "x": 0,
+        "y": 0,
+        "z": 90
+      },
+      "scale": {
+        "x": 0.3,
+        "y": 0.3,
+        "z": 0.3
+      },
+      "color": {
+        "r": 0.95,
+        "g": 0.5,
+        "b": 0.2,
+        "a": 1
+      }
+    }
+  ]
+}
