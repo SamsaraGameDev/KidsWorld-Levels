@@ -1,0 +1,37 @@
+{
+    "schemaVersion": 1,
+    "id": "level_2026_07_21_pond_garden",
+    "date": "2026-07-21",
+    "theme": "pond_garden",
+    "displayName": "Pond Garden",
+    "findCount": 0,
+    "sceneCenterOffset": { "x": 0, "y": 0, "z": 0 },
+    "camera": {
+        "mode": "Orbit",
+        "orbit": { "minDistance": 4, "maxDistance": 14, "startDistance": 9, "minPitch": 10, "maxPitch": 70, "startPitch": 35, "rotateDegreesPerPixel": 0.25, "zoomSpeed": 4 }
+    },
+    "ground": {
+        "modelType": "PondTerrain",
+        "lowPoly": { "enabled": true, "columns": 10, "rows": 10, "height": 0.16 },
+        "size": { "x": 16, "y": 0.5, "z": 16 },
+        "color": { "r": 0.32, "g": 0.5, "b": 0.3, "a": 1 }
+    },
+    "decorations": [
+        { "name": "Pond", "primitive": "Cube", "modelType": "WaterPlane", "position": { "x": 2.5, "y": 0.03, "z": -2.5 }, "rotationEuler": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 0.5, "y": 0.1, "z": 0.4 }, "color": { "r": 0.15, "g": 0.5, "b": 0.55, "a": 1 } },
+        { "name": "Pond_Top", "primitive": "Cube", "modelType": "LilyPad", "position": { "x": 2.5, "y": 0.08, "z": -2.5 }, "rotationEuler": { "x": 0, "y": 15, "z": 0 }, "scale": { "x": 0.6, "y": 0.6, "z": 0.6 }, "color": { "r": 0.15, "g": 0.5, "b": 0.55, "a": 1 } },
+        { "name": "Rock_A", "primitive": "Sphere", "modelType": "Rock", "position": { "x": -1.0, "y": 0, "z": -3.6 }, "rotationEuler": { "x": 0, "y": 20, "z": 0 }, "scale": { "x": 0.5, "y": 0.5, "z": 0.5 }, "color": { "r": 0.55, "g": 0.55, "b": 0.55, "a": 1 } },
+        { "name": "Rock_B", "primitive": "Sphere", "modelType": "Rock", "position": { "x": -1.7, "y": 0, "z": -4.3 }, "rotationEuler": { "x": 0, "y": -20, "z": 0 }, "scale": { "x": 0.35, "y": 0.35, "z": 0.35 }, "color": { "r": 0.5, "g": 0.5, "b": 0.5, "a": 1 } },
+        { "name": "Log", "primitive": "Cylinder", "modelType": "Bridge", "position": { "x": 4.8, "y": 0, "z": 2.3 }, "rotationEuler": { "x": 0, "y": 90, "z": 0 }, "scale": { "x": 0.3, "y": 0.3, "z": 0.3 }, "color": { "r": 0.45, "g": 0.32, "b": 0.18, "a": 1 } },
+        { "name": "Grass_A", "primitive": "Cylinder", "modelType": "Grass", "position": { "x": 5.5, "y": 0, "z": 4.4 }, "rotationEuler": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 1, "y": 1, "z": 1 }, "color": { "r": 0.25, "g": 0.55, "b": 0.22, "a": 1 } },
+        { "name": "Grass_B", "primitive": "Cylinder", "modelType": "Reeds", "position": { "x": 4.1, "y": 0, "z": 4.7 }, "rotationEuler": { "x": 0, "y": 25, "z": 0 }, "scale": { "x": 0.8, "y": 0.8, "z": 0.8 }, "color": { "r": 0.25, "g": 0.55, "b": 0.22, "a": 1 } },
+        { "name": "Tree", "primitive": "Cube", "modelType": "Tree", "position": { "x": -5.2, "y": 0, "z": 3.0 }, "rotationEuler": { "x": 0, "y": -30, "z": 0 }, "scale": { "x": 0.25, "y": 0.25, "z": 0.25 }, "color": { "r": 0.22, "g": 0.6, "b": 0.25, "a": 1 } },
+        { "name": "Crate_A", "primitive": "Cube", "modelType": "Lantern", "position": { "x": -4.0, "y": 0, "z": -1.0 }, "rotationEuler": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 1, "y": 1, "z": 1 }, "color": { "r": 0.5, "g": 0.36, "b": 0.2, "a": 1 } }
+    ],
+    "items": [
+        { "id": "frog", "displayName": "Frog", "primitive": "Sphere", "position": { "x": -0.3, "y": 0.15, "z": -3.3 }, "rotationEuler": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 0.42, "y": 0.3, "z": 0.48 }, "color": { "r": 0.15, "g": 0.85, "b": 0.25, "a": 1 } },
+        { "id": "turtle", "displayName": "Turtle", "primitive": "Capsule", "position": { "x": 5.3, "y": 0.3, "z": 2.7 }, "rotationEuler": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 0.5, "y": 0.3, "z": 0.42 }, "color": { "r": 0.6, "g": 0.35, "b": 0.12, "a": 1 } },
+        { "id": "fish", "displayName": "Fish", "primitive": "Sphere", "position": { "x": -3.5, "y": 0.11, "z": -1.6 }, "rotationEuler": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 0.5, "y": 0.22, "z": 0.34 }, "color": { "r": 0.95, "g": 0.55, "b": 0.15, "a": 1 } },
+        { "id": "snail", "displayName": "Snail", "primitive": "Sphere", "position": { "x": 3.3, "y": 0.14, "z": 4.6 }, "rotationEuler": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 0.32, "y": 0.28, "z": 0.32 }, "color": { "r": 0.7, "g": 0.4, "b": 0.2, "a": 1 } },
+        { "id": "ladybug", "displayName": "Ladybug", "primitive": "Sphere", "position": { "x": -4.6, "y": 0.1, "z": 2.6 }, "rotationEuler": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 0.24, "y": 0.2, "z": 0.24 }, "color": { "r": 0.85, "g": 0.15, "b": 0.15, "a": 1 } }
+    ]
+}
