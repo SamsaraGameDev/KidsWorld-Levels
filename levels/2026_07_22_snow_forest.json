@@ -11,20 +11,28 @@
         "panZoom": { "minDistance": 5, "maxDistance": 14, "startDistance": 9, "panUnitsPerPixel": 0.02, "panExtents": { "x": 7, "y": 7 }, "pitchDegrees": 50, "zoomSpeed": 4 }
     },
     "ground": {
-        "modelType": "SnowTerrain",
-        "lowPoly": { "enabled": true, "columns": 12, "rows": 12, "height": 0.18 },
+        "lowPoly": { "enabled": true, "columns": 8, "rows": 8, "height": 0.65 },
         "size": { "x": 16, "y": 0.5, "z": 16 },
         "color": { "r": 0.88, "g": 0.9, "b": 0.95, "a": 1 }
     },
     "decorations": [
-        { "name": "Pine_Trunk_A", "primitive": "Cylinder", "modelType": "WinterTree", "position": { "x": -3, "y": 0, "z": 3 }, "rotationEuler": { "x": 0, "y": 15, "z": 0 }, "scale": { "x": 0.25, "y": 0.25, "z": 0.25 }, "color": { "r": 0.4, "g": 0.28, "b": 0.16, "a": 1 } },
-        { "name": "Pine_Trunk_B", "primitive": "Cylinder", "modelType": "WinterTree", "position": { "x": 4, "y": 0, "z": -3.5 }, "rotationEuler": { "x": 0, "y": -20, "z": 0 }, "scale": { "x": 0.25, "y": 0.25, "z": 0.25 }, "color": { "r": 0.4, "g": 0.28, "b": 0.16, "a": 1 } },
+        { "name": "Snow_Pine_A", "primitive": "Cylinder", "modelType": "WinterTree", "position": { "x": -5.5, "y": 0, "z": 4.5 }, "rotationEuler": { "x": 0, "y": 15, "z": 0 }, "scale": { "x": 1.8, "y": 1.8, "z": 1.8 }, "color": { "r": 0.4, "g": 0.28, "b": 0.16, "a": 1 } },
+        { "name": "Snow_Pine_B", "primitive": "Cylinder", "modelType": "WinterTree", "position": { "x": 5.5, "y": 0, "z": -5 }, "rotationEuler": { "x": 0, "y": -20, "z": 0 }, "scale": { "x": 1.6, "y": 1.6, "z": 1.6 }, "color": { "r": 0.4, "g": 0.28, "b": 0.16, "a": 1 } },
         { "name": "Rock_A", "primitive": "Sphere", "modelType": "WinterRock", "position": { "x": -4.5, "y": 0, "z": -4 }, "rotationEuler": { "x": 0, "y": 30, "z": 0 }, "scale": { "x": 0.5, "y": 0.5, "z": 0.5 }, "color": { "r": 0.72, "g": 0.72, "b": 0.75, "a": 1 } },
         { "name": "Rock_B", "primitive": "Sphere", "modelType": "WinterRock", "position": { "x": -5.3, "y": 0, "z": -4.6 }, "rotationEuler": { "x": 0, "y": -25, "z": 0 }, "scale": { "x": 0.35, "y": 0.35, "z": 0.35 }, "color": { "r": 0.68, "g": 0.68, "b": 0.72, "a": 1 } },
-        { "name": "Snow_Hill", "primitive": "Cube", "modelType": "WinterGrass", "position": { "x": 5, "y": 0, "z": 4.5 }, "rotationEuler": { "x": 0, "y": 20, "z": 0 }, "scale": { "x": 1, "y": 1, "z": 1 }, "color": { "r": 0.95, "g": 0.95, "b": 0.98, "a": 1 } },
-        { "name": "Log", "primitive": "Cylinder", "modelType": "Bedroll", "position": { "x": 1.5, "y": 0, "z": 5.5 }, "rotationEuler": { "x": 0, "y": 45, "z": 0 }, "scale": { "x": 1, "y": 1, "z": 1 }, "color": { "r": 0.5, "g": 0.35, "b": 0.2, "a": 1 } },
-        { "name": "Gift_A", "primitive": "Cube", "modelType": "Lantern", "position": { "x": -1.5, "y": 0, "z": -5 }, "rotationEuler": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 1, "y": 1, "z": 1 }, "color": { "r": 0.78, "g": 0.16, "b": 0.2, "a": 1 } },
-        { "name": "Gift_B", "primitive": "Cube", "modelType": "Campfire", "position": { "x": 2.5, "y": 0, "z": -5.6 }, "rotationEuler": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 0.8, "y": 0.8, "z": 0.8 }, "color": { "r": 0.18, "g": 0.4, "b": 0.75, "a": 1 } }
+        { "name": "Snow_Hill", "primitive": "Cube", "modelType": "SnowBank", "position": { "x": 5, "y": 0, "z": 4.5 }, "rotationEuler": { "x": 0, "y": 20, "z": 0 }, "scale": { "x": 1.4, "y": 1.4, "z": 1.4 }, "color": { "r": 0.95, "g": 0.95, "b": 0.98, "a": 1 } },
+        { "name": "Pillow", "primitive": "Cylinder", "modelType": "Bedroll", "position": { "x": 1.5, "y": 0, "z": 5.5 }, "rotationEuler": { "x": 0, "y": 45, "z": 0 }, "scale": { "x": 2, "y": 2, "z": 2 }, "color": { "r": 0.5, "g": 0.35, "b": 0.2, "a": 1 } },
+        { "name": "Lamp", "primitive": "Cube", "modelType": "Lantern", "position": { "x": -1.5, "y": 0, "z": -5 }, "rotationEuler": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 0.7, "y": 0.7, "z": 0.7 }, "color": { "r": 0.78, "g": 0.16, "b": 0.2, "a": 1 } },
+        { "name": "Stone_Ring", "primitive": "Cube", "modelType": "Campfire", "position": { "x": 2.5, "y": 0, "z": -5.6 }, "rotationEuler": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 1.5, "y": 1.5, "z": 1.5 }, "color": { "r": 0.18, "g": 0.4, "b": 0.75, "a": 1 } },
+        { "name": "Snow_Hill_B", "primitive": "Cube", "modelType": "SnowRise", "position": { "x": -6.2, "y": 0, "z": -6.2 }, "rotationEuler": { "x": 0, "y": 20, "z": 0 }, "scale": { "x": 1.1, "y": 1.1, "z": 1.1 }, "color": { "r": 0.94, "g": 0.95, "b": 0.98, "a": 1 } },
+        { "name": "Snow_Hill_C", "primitive": "Cube", "modelType": "SnowRise", "position": { "x": 6.2, "y": 0, "z": 0 }, "rotationEuler": { "x": 0, "y": -25, "z": 0 }, "scale": { "x": 1.2, "y": 1.2, "z": 1.2 }, "color": { "r": 0.94, "g": 0.95, "b": 0.98, "a": 1 } },
+        { "name": "Snow_Pine_C", "primitive": "Cylinder", "modelType": "WinterTree", "position": { "x": -6.2, "y": 0, "z": 0 }, "rotationEuler": { "x": 0, "y": 30, "z": 0 }, "scale": { "x": 1.5, "y": 1.5, "z": 1.5 }, "color": { "r": 0.4, "g": 0.28, "b": 0.16, "a": 1 } },
+        { "name": "Snow_Pine_D", "primitive": "Cylinder", "modelType": "WinterTree", "position": { "x": 6.2, "y": 0, "z": 6.2 }, "rotationEuler": { "x": 0, "y": -15, "z": 0 }, "scale": { "x": 1.6, "y": 1.6, "z": 1.6 }, "color": { "r": 0.4, "g": 0.28, "b": 0.16, "a": 1 } },
+        { "name": "Snow_Grass_A", "primitive": "Cylinder", "modelType": "WinterGrass", "position": { "x": -6, "y": 0, "z": 6.5 }, "rotationEuler": { "x": 0, "y": 10, "z": 0 }, "scale": { "x": 2, "y": 2, "z": 2 }, "color": { "r": 0.75, "g": 0.82, "b": 0.75, "a": 1 } },
+        { "name": "Snow_Grass_B", "primitive": "Cylinder", "modelType": "WinterGrass", "position": { "x": 0, "y": 0, "z": 6.5 }, "rotationEuler": { "x": 0, "y": -30, "z": 0 }, "scale": { "x": 2.2, "y": 2.2, "z": 2.2 }, "color": { "r": 0.75, "g": 0.82, "b": 0.75, "a": 1 } },
+        { "name": "Snow_Grass_C", "primitive": "Cylinder", "modelType": "WinterGrass", "position": { "x": 6.5, "y": 0, "z": -2 }, "rotationEuler": { "x": 0, "y": 25, "z": 0 }, "scale": { "x": 2, "y": 2, "z": 2 }, "color": { "r": 0.75, "g": 0.82, "b": 0.75, "a": 1 } },
+        { "name": "Rock_C", "primitive": "Sphere", "modelType": "WinterRock", "position": { "x": 0, "y": 0, "z": 6 }, "rotationEuler": { "x": 0, "y": 35, "z": 0 }, "scale": { "x": 0.7, "y": 0.7, "z": 0.7 }, "color": { "r": 0.7, "g": 0.72, "b": 0.76, "a": 1 } },
+        { "name": "Rock_Hill", "primitive": "Cube", "modelType": "RockCliff", "position": { "x": -1, "y": 0, "z": 7 }, "rotationEuler": { "x": 0, "y": -20, "z": 0 }, "scale": { "x": 1, "y": 1, "z": 1 }, "color": { "r": 0.64, "g": 0.66, "b": 0.7, "a": 1 } }
     ],
     "items": [
         { "id": "owl", "displayName": "Owl", "primitive": "Capsule", "position": { "x": -2.2, "y": 0.4, "z": 3.5 }, "rotationEuler": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 0.35, "y": 0.4, "z": 0.35 }, "color": { "r": 0.55, "g": 0.35, "b": 0.2, "a": 1 } },

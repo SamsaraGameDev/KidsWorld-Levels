@@ -11,21 +11,30 @@
         "orbit": { "minDistance": 4, "maxDistance": 14, "startDistance": 9, "minPitch": 10, "maxPitch": 70, "startPitch": 35, "rotateDegreesPerPixel": 0.25, "zoomSpeed": 4 }
     },
     "ground": {
-        "modelType": "PondTerrain",
-        "lowPoly": { "enabled": true, "columns": 10, "rows": 10, "height": 0.16 },
+        "lowPoly": { "enabled": true, "columns": 8, "rows": 8, "height": 0.6 },
         "size": { "x": 16, "y": 0.5, "z": 16 },
         "color": { "r": 0.32, "g": 0.5, "b": 0.3, "a": 1 }
     },
     "decorations": [
-        { "name": "Pond", "primitive": "Cube", "modelType": "WaterPlane", "position": { "x": 2.5, "y": 0.03, "z": -2.5 }, "rotationEuler": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 0.5, "y": 0.1, "z": 0.4 }, "color": { "r": 0.15, "g": 0.5, "b": 0.55, "a": 1 } },
-        { "name": "Pond_Top", "primitive": "Cube", "modelType": "LilyPad", "position": { "x": 2.5, "y": 0.08, "z": -2.5 }, "rotationEuler": { "x": 0, "y": 15, "z": 0 }, "scale": { "x": 0.6, "y": 0.6, "z": 0.6 }, "color": { "r": 0.15, "g": 0.5, "b": 0.55, "a": 1 } },
+        { "name": "Pond", "primitive": "Cube", "modelType": "WaterPlane", "position": { "x": 2.5, "y": 0.03, "z": -2.5 }, "rotationEuler": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 5, "y": 1, "z": 4 }, "color": { "r": 0.15, "g": 0.5, "b": 0.55, "a": 1 } },
+        { "name": "Pond_Leaf", "primitive": "Cube", "modelType": "LilyPad", "position": { "x": 2.5, "y": 0.08, "z": -2.5 }, "rotationEuler": { "x": 0, "y": 15, "z": 0 }, "scale": { "x": 2.2, "y": 2.2, "z": 2.2 }, "color": { "r": 0.15, "g": 0.5, "b": 0.55, "a": 1 } },
         { "name": "Rock_A", "primitive": "Sphere", "modelType": "Rock", "position": { "x": -1.0, "y": 0, "z": -3.6 }, "rotationEuler": { "x": 0, "y": 20, "z": 0 }, "scale": { "x": 0.5, "y": 0.5, "z": 0.5 }, "color": { "r": 0.55, "g": 0.55, "b": 0.55, "a": 1 } },
         { "name": "Rock_B", "primitive": "Sphere", "modelType": "Rock", "position": { "x": -1.7, "y": 0, "z": -4.3 }, "rotationEuler": { "x": 0, "y": -20, "z": 0 }, "scale": { "x": 0.35, "y": 0.35, "z": 0.35 }, "color": { "r": 0.5, "g": 0.5, "b": 0.5, "a": 1 } },
-        { "name": "Log", "primitive": "Cylinder", "modelType": "Bridge", "position": { "x": 4.8, "y": 0, "z": 2.3 }, "rotationEuler": { "x": 0, "y": 90, "z": 0 }, "scale": { "x": 0.3, "y": 0.3, "z": 0.3 }, "color": { "r": 0.45, "g": 0.32, "b": 0.18, "a": 1 } },
-        { "name": "Grass_A", "primitive": "Cylinder", "modelType": "Grass", "position": { "x": 5.5, "y": 0, "z": 4.4 }, "rotationEuler": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 1, "y": 1, "z": 1 }, "color": { "r": 0.25, "g": 0.55, "b": 0.22, "a": 1 } },
-        { "name": "Grass_B", "primitive": "Cylinder", "modelType": "Reeds", "position": { "x": 4.1, "y": 0, "z": 4.7 }, "rotationEuler": { "x": 0, "y": 25, "z": 0 }, "scale": { "x": 0.8, "y": 0.8, "z": 0.8 }, "color": { "r": 0.25, "g": 0.55, "b": 0.22, "a": 1 } },
-        { "name": "Tree", "primitive": "Cube", "modelType": "Tree", "position": { "x": -5.2, "y": 0, "z": 3.0 }, "rotationEuler": { "x": 0, "y": -30, "z": 0 }, "scale": { "x": 0.25, "y": 0.25, "z": 0.25 }, "color": { "r": 0.22, "g": 0.6, "b": 0.25, "a": 1 } },
-        { "name": "Crate_A", "primitive": "Cube", "modelType": "Lantern", "position": { "x": -4.0, "y": 0, "z": -1.0 }, "rotationEuler": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 1, "y": 1, "z": 1 }, "color": { "r": 0.5, "g": 0.36, "b": 0.2, "a": 1 } }
+        { "name": "Log", "primitive": "Cylinder", "modelType": "Log", "position": { "x": 6, "y": 0, "z": 0.8 }, "rotationEuler": { "x": 0, "y": 90, "z": 0 }, "scale": { "x": 1.7, "y": 1.7, "z": 1.7 }, "color": { "r": 0.45, "g": 0.32, "b": 0.18, "a": 1 } },
+        { "name": "Grass_A", "primitive": "Cylinder", "modelType": "Grass", "position": { "x": 5.5, "y": 0, "z": 4.4 }, "rotationEuler": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 2, "y": 2, "z": 2 }, "color": { "r": 0.25, "g": 0.55, "b": 0.22, "a": 1 } },
+        { "name": "Grass_B", "primitive": "Cylinder", "modelType": "Reeds", "position": { "x": 1.5, "y": 0, "z": 5.5 }, "rotationEuler": { "x": 0, "y": 25, "z": 0 }, "scale": { "x": 2, "y": 2, "z": 2 }, "color": { "r": 0.25, "g": 0.55, "b": 0.22, "a": 1 } },
+        { "name": "Tree", "primitive": "Cube", "modelType": "Tree", "position": { "x": -6, "y": 0, "z": 5.5 }, "rotationEuler": { "x": 0, "y": -30, "z": 0 }, "scale": { "x": 2, "y": 2, "z": 2 }, "color": { "r": 0.22, "g": 0.6, "b": 0.25, "a": 1 } },
+        { "name": "Lamp", "primitive": "Cube", "modelType": "Lantern", "position": { "x": -4.0, "y": 0, "z": -1.0 }, "rotationEuler": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 0.7, "y": 0.7, "z": 0.7 }, "color": { "r": 0.5, "g": 0.36, "b": 0.2, "a": 1 } },
+        { "name": "Grass_Hill_A", "primitive": "Cube", "modelType": "GrassRise", "position": { "x": -6.2, "y": 0, "z": -6.2 }, "rotationEuler": { "x": 0, "y": 20, "z": 0 }, "scale": { "x": 1.1, "y": 1.1, "z": 1.1 }, "color": { "r": 0.28, "g": 0.5, "b": 0.25, "a": 1 } },
+        { "name": "Grass_Hill_B", "primitive": "Cube", "modelType": "GrassRise", "position": { "x": 6.2, "y": 0, "z": -6.2 }, "rotationEuler": { "x": 0, "y": -25, "z": 0 }, "scale": { "x": 1, "y": 1, "z": 1 }, "color": { "r": 0.28, "g": 0.5, "b": 0.25, "a": 1 } },
+        { "name": "Leaf_A", "primitive": "Sphere", "modelType": "Bush", "position": { "x": -6.5, "y": 0, "z": 0 }, "rotationEuler": { "x": 0, "y": 35, "z": 0 }, "scale": { "x": 2, "y": 2, "z": 2 }, "color": { "r": 0.18, "g": 0.52, "b": 0.22, "a": 1 } },
+        { "name": "Leaf_B", "primitive": "Sphere", "modelType": "Bush", "position": { "x": 0, "y": 0, "z": 6.5 }, "rotationEuler": { "x": 0, "y": -20, "z": 0 }, "scale": { "x": 2.2, "y": 2.2, "z": 2.2 }, "color": { "r": 0.18, "g": 0.52, "b": 0.22, "a": 1 } },
+        { "name": "Grass_C", "primitive": "Cylinder", "modelType": "Grass", "position": { "x": -3, "y": 0, "z": 6.2 }, "rotationEuler": { "x": 0, "y": 15, "z": 0 }, "scale": { "x": 2, "y": 2, "z": 2 }, "color": { "r": 0.22, "g": 0.58, "b": 0.2, "a": 1 } },
+        { "name": "Grass_D", "primitive": "Cylinder", "modelType": "Grass", "position": { "x": 6.5, "y": 0, "z": -1 }, "rotationEuler": { "x": 0, "y": -35, "z": 0 }, "scale": { "x": 2.2, "y": 2.2, "z": 2.2 }, "color": { "r": 0.22, "g": 0.58, "b": 0.2, "a": 1 } },
+        { "name": "Tree_B", "primitive": "Cube", "modelType": "Tree", "position": { "x": 6.2, "y": 0, "z": 6.2 }, "rotationEuler": { "x": 0, "y": 25, "z": 0 }, "scale": { "x": 1.7, "y": 1.7, "z": 1.7 }, "color": { "r": 0.22, "g": 0.6, "b": 0.25, "a": 1 } },
+        { "name": "Tree_C", "primitive": "Cube", "modelType": "Tree", "position": { "x": -6.2, "y": 0, "z": -5 }, "rotationEuler": { "x": 0, "y": -30, "z": 0 }, "scale": { "x": 1.6, "y": 1.6, "z": 1.6 }, "color": { "r": 0.22, "g": 0.6, "b": 0.25, "a": 1 } },
+        { "name": "Flower_A", "primitive": "Cylinder", "modelType": "Flowers", "position": { "x": -2, "y": 0, "z": 6.5 }, "rotationEuler": { "x": 0, "y": 10, "z": 0 }, "scale": { "x": 1.5, "y": 1.5, "z": 1.5 }, "color": { "r": 0.8, "g": 0.35, "b": 0.65, "a": 1 } },
+        { "name": "Pond_Leaf_B", "primitive": "Cube", "modelType": "LilyPad", "position": { "x": 4, "y": 0.08, "z": -3.5 }, "rotationEuler": { "x": 0, "y": -20, "z": 0 }, "scale": { "x": 1.6, "y": 1.6, "z": 1.6 }, "color": { "r": 0.15, "g": 0.5, "b": 0.55, "a": 1 } }
     ],
     "items": [
         { "id": "frog", "displayName": "Frog", "primitive": "Sphere", "position": { "x": -0.3, "y": 0.15, "z": -3.3 }, "rotationEuler": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 0.42, "y": 0.3, "z": 0.48 }, "color": { "r": 0.15, "g": 0.85, "b": 0.25, "a": 1 } },
