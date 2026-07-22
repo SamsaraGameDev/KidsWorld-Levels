@@ -1,7 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAtUtc": "2026-07-21T18:44:48Z",
+  "generatedAtUtc": "2026-07-22T14:03:37Z",
   "levels": [
+    {
+      "id": "level_2026_07_23_jolly_camp",
+      "date": "2026-07-23",
+      "file": "2026_07_23_jolly_camp.json",
+      "sha256": "37a0088752dd8b913c121cf107ac83b4a530e63b3f71b36ca3443f0a9376f00e"
+    },
     {
       "id": "level_2026_07_22_snow_forest",
       "date": "2026-07-22",
@@ -30,7 +36,7 @@
       "id": "level_2026_07_18_sunny_meadow",
       "date": "2026-07-18",
       "file": "2026_07_18_sunny_meadow.json",
-      "sha256": "528424e6cea6469486337d45017cac5d232a5004e3be0aa15ee8727ed19ed60b"
+      "sha256": "b122a1505a4af49ace2fc7c73c0824279b70046b3fe17dfcee9f1555f1034e55"
     }
   ]
 }

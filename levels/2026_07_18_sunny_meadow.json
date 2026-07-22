@@ -43,7 +43,7 @@
         { "name": "Tree_D", "primitive": "Cube", "modelType": "Tree", "position": { "x": 6.2, "y": 0, "z": 3.4 }, "rotationEuler": { "x": 0, "y": 30, "z": 0 }, "scale": { "x": 1.7, "y": 1.7, "z": 1.7 }, "color": { "r": 0.28, "g": 0.72, "b": 0.32, "a": 1 } }
     ],
     "items": [
-        { "id": "red_ball", "displayName": "Red Ball", "primitive": "Sphere", "position": { "x": 3, "y": 0.25, "z": 2.2 }, "rotationEuler": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 0.5, "y": 0.5, "z": 0.5 }, "color": { "r": 0.88, "g": 0.22, "b": 0.18, "a": 1 } },
+        { "id": "red_ball", "displayName": "Red Ball", "primitive": "Sphere", "position": { "x": 3, "y": 0.25, "z": 2.4 }, "rotationEuler": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 0.5, "y": 0.5, "z": 0.5 }, "color": { "r": 0.88, "g": 0.22, "b": 0.18, "a": 1 } },
         { "id": "yellow_star", "displayName": "Yellow Star", "primitive": "Cube", "position": { "x": -3.3, "y": 0.2, "z": 2.4 }, "rotationEuler": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 0.4, "y": 0.4, "z": 0.4 }, "color": { "r": 0.96, "g": 0.84, "b": 0.2, "a": 1 } },
         { "id": "blue_bottle", "displayName": "Blue Bottle", "primitive": "Cylinder", "position": { "x": -4.6, "y": 0.35, "z": -2.7 }, "rotationEuler": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 0.25, "y": 0.35, "z": 0.25 }, "color": { "r": 0.2, "g": 0.45, "b": 0.88, "a": 1 } },
         { "id": "green_caterpillar", "displayName": "Caterpillar", "primitive": "Capsule", "position": { "x": 0.9, "y": 0.2, "z": -4.2 }, "rotationEuler": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 0.3, "y": 0.2, "z": 0.3 }, "color": { "r": 0.28, "g": 0.72, "b": 0.32, "a": 1 } },

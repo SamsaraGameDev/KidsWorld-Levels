@@ -1,0 +1,44 @@
+{
+    "schemaVersion": 1,
+    "id": "level_2026_07_23_jolly_camp",
+    "date": "2026-07-23",
+    "theme": "jolly_camp",
+    "displayName": "Jolly Camp",
+    "findCount": 0,
+    "sceneCenterOffset": { "x": 0, "y": 0, "z": 0 },
+    "camera": {
+        "mode": "FreeWalk",
+        "freeWalk": { "moveSpeed": 3.5, "eyeHeight": 1.4, "lookDegreesPerPixel": 0.2, "minPitch": -40, "maxPitch": 40, "walkAreaCenter": { "x": 0, "y": 0, "z": 0 }, "walkAreaSize": { "x": 12, "y": 0, "z": 12 } }
+    },
+    "ground": {
+        "lowPoly": { "enabled": true, "columns": 8, "rows": 8, "height": 0.5 },
+        "size": { "x": 16, "y": 0.5, "z": 16 },
+        "color": { "r": 0.34, "g": 0.44, "b": 0.22, "a": 1 }
+    },
+    "decorations": [
+        { "name": "Camp_House", "primitive": "Cube", "modelType": "Tent", "position": { "x": -5, "y": 0, "z": -4 }, "rotationEuler": { "x": 0, "y": 20, "z": 0 }, "scale": { "x": 2.0, "y": 2.0, "z": 2.0 }, "color": { "r": 0.78, "g": 0.55, "b": 0.22, "a": 1 } },
+        { "name": "Stone_Ring", "primitive": "Cube", "modelType": "Campfire", "position": { "x": 0.5, "y": 0, "z": 0.3 }, "rotationEuler": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 1.4, "y": 1.4, "z": 1.4 }, "color": { "r": 0.55, "g": 0.32, "b": 0.16, "a": 1 } },
+        { "name": "Lamp", "primitive": "Cube", "modelType": "Lantern", "position": { "x": -2.0, "y": 0, "z": 1.0 }, "rotationEuler": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 0.8, "y": 0.8, "z": 0.8 }, "color": { "r": 0.75, "g": 0.6, "b": 0.2, "a": 1 } },
+        { "name": "Pillow", "primitive": "Cylinder", "modelType": "Bedroll", "position": { "x": -4.2, "y": 0, "z": -2.0 }, "rotationEuler": { "x": 0, "y": 45, "z": 0 }, "scale": { "x": 1.8, "y": 1.8, "z": 1.8 }, "color": { "r": 0.32, "g": 0.48, "b": 0.72, "a": 1 } },
+        { "name": "Log", "primitive": "Cylinder", "modelType": "Log", "position": { "x": 3.5, "y": 0, "z": -5.5 }, "rotationEuler": { "x": 0, "y": 90, "z": 0 }, "scale": { "x": 1.6, "y": 1.6, "z": 1.6 }, "color": { "r": 0.42, "g": 0.3, "b": 0.16, "a": 1 } },
+        { "name": "Crate_A", "primitive": "Cube", "modelType": "Crate", "position": { "x": 2.6, "y": 0, "z": 4.0 }, "rotationEuler": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 1.4, "y": 1.4, "z": 1.4 }, "color": { "r": 0.55, "g": 0.38, "b": 0.22, "a": 1 } },
+        { "name": "Chest_A", "primitive": "Cube", "modelType": "Barrel", "position": { "x": 3.4, "y": 0, "z": 4.8 }, "rotationEuler": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 1.3, "y": 1.3, "z": 1.3 }, "color": { "r": 0.5, "g": 0.34, "b": 0.2, "a": 1 } },
+        { "name": "Tree_A", "primitive": "Cube", "modelType": "Tree", "position": { "x": -6.5, "y": 0, "z": 5.0 }, "rotationEuler": { "x": 0, "y": 15, "z": 0 }, "scale": { "x": 2.0, "y": 2.0, "z": 2.0 }, "color": { "r": 0.25, "g": 0.55, "b": 0.22, "a": 1 } },
+        { "name": "Tree_B", "primitive": "Cube", "modelType": "Tree", "position": { "x": 6.4, "y": 0, "z": -3.5 }, "rotationEuler": { "x": 0, "y": -25, "z": 0 }, "scale": { "x": 1.8, "y": 1.8, "z": 1.8 }, "color": { "r": 0.25, "g": 0.55, "b": 0.22, "a": 1 } },
+        { "name": "Tree_C", "primitive": "Cube", "modelType": "Tree", "position": { "x": 5.8, "y": 0, "z": 5.6 }, "rotationEuler": { "x": 0, "y": 35, "z": 0 }, "scale": { "x": 1.7, "y": 1.7, "z": 1.7 }, "color": { "r": 0.25, "g": 0.55, "b": 0.22, "a": 1 } },
+        { "name": "Grass_Hill_A", "primitive": "Cube", "modelType": "GrassRise", "position": { "x": -6.8, "y": 0, "z": -6.5 }, "rotationEuler": { "x": 0, "y": 20, "z": 0 }, "scale": { "x": 1.1, "y": 1.1, "z": 1.1 }, "color": { "r": 0.4, "g": 0.55, "b": 0.25, "a": 1 } },
+        { "name": "Grass_Hill_B", "primitive": "Cube", "modelType": "GrassRise", "position": { "x": 6.8, "y": 0, "z": 0.5 }, "rotationEuler": { "x": 0, "y": -20, "z": 0 }, "scale": { "x": 1.0, "y": 1.0, "z": 1.0 }, "color": { "r": 0.4, "g": 0.55, "b": 0.25, "a": 1 } },
+        { "name": "Leaf_A", "primitive": "Sphere", "modelType": "Bush", "position": { "x": -6.2, "y": 0, "z": 1.5 }, "rotationEuler": { "x": 0, "y": 30, "z": 0 }, "scale": { "x": 2.0, "y": 2.0, "z": 2.0 }, "color": { "r": 0.2, "g": 0.5, "b": 0.22, "a": 1 } },
+        { "name": "Grass_A", "primitive": "Cylinder", "modelType": "Grass", "position": { "x": 1.5, "y": 0, "z": 6.5 }, "rotationEuler": { "x": 0, "y": 15, "z": 0 }, "scale": { "x": 2.0, "y": 2.0, "z": 2.0 }, "color": { "r": 0.28, "g": 0.58, "b": 0.24, "a": 1 } },
+        { "name": "Grass_B", "primitive": "Cylinder", "modelType": "Grass", "position": { "x": -1.5, "y": 0, "z": -6.5 }, "rotationEuler": { "x": 0, "y": -10, "z": 0 }, "scale": { "x": 2.2, "y": 2.2, "z": 2.2 }, "color": { "r": 0.28, "g": 0.58, "b": 0.24, "a": 1 } },
+        { "name": "Rock_A", "primitive": "Sphere", "modelType": "Rock", "position": { "x": 5.0, "y": 0, "z": -1.0 }, "rotationEuler": { "x": 0, "y": 25, "z": 0 }, "scale": { "x": 0.6, "y": 0.6, "z": 0.6 }, "color": { "r": 0.55, "g": 0.55, "b": 0.55, "a": 1 } },
+        { "name": "Rock_B", "primitive": "Sphere", "modelType": "Rock", "position": { "x": 5.6, "y": 0, "z": -0.4 }, "rotationEuler": { "x": 0, "y": -15, "z": 0 }, "scale": { "x": 0.4, "y": 0.4, "z": 0.4 }, "color": { "r": 0.5, "g": 0.5, "b": 0.5, "a": 1 } }
+    ],
+    "items": [
+        { "id": "teddy_bear", "displayName": "Teddy Bear", "primitive": "Capsule", "position": { "x": -3.5, "y": 0.43, "z": -3.5 }, "rotationEuler": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 0.35, "y": 0.42, "z": 0.35 }, "color": { "r": 0.85, "g": 0.55, "b": 0.25, "a": 1 } },
+        { "id": "drum", "displayName": "Drum", "primitive": "Cylinder", "position": { "x": 1.7, "y": 0.33, "z": 3.7 }, "rotationEuler": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 0.28, "y": 0.32, "z": 0.28 }, "color": { "r": 0.85, "g": 0.15, "b": 0.15, "a": 1 } },
+        { "id": "boot", "displayName": "Boot", "primitive": "Cube", "position": { "x": 2.6, "y": 0.13, "z": -5.3 }, "rotationEuler": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 0.3, "y": 0.24, "z": 0.4 }, "color": { "r": 0.2, "g": 0.3, "b": 0.65, "a": 1 } },
+        { "id": "flag", "displayName": "Flag", "primitive": "Cube", "position": { "x": -3.0, "y": 0.21, "z": -1.6 }, "rotationEuler": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 0.35, "y": 0.4, "z": 0.15 }, "color": { "r": 0.55, "g": 0.25, "b": 0.75, "a": 1 } },
+        { "id": "acorn", "displayName": "Acorn", "primitive": "Sphere", "position": { "x": -5.0, "y": 0.15, "z": -5.5 }, "rotationEuler": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 0.28, "y": 0.28, "z": 0.28 }, "color": { "r": 0.65, "g": 0.4, "b": 0.12, "a": 1 } }
+    ]
+}
